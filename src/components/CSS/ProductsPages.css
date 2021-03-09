@@ -1,0 +1,19 @@
+.container__filters__list {
+    display: flex;
+}
+
+/* .filters {
+    margin: 60px;
+} */
+
+@media (max-width: 390px) {
+}
+@media (max-width: 600px) {
+}
+
+@media (max-width: 960px) {
+    .container__filters__list {
+        display: block;
+        text-align: center;
+    }
+}

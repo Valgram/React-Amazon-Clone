@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(230, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.loading {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    border-top-color: rgb(13, 141, 141);
+    animation: spinner 0.6s linear infinite;
+}
+.img__container {
+    padding: 10px;
+}
+.img__container:hover {
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.location__container {
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.location__container:hover {
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.options__container {
+    padding: 10px;
+}
+.options__container:hover {
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.shopping__container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shopping__container:hover {
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.icon__container {
+    padding: 5px;
+    color: white;
+}
+
+.carousel__container {
+    z-index: -1;
+    margin-bottom: -50px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.container__featured__products {
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    width: 20px;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+.container__featured__products h3 {
+    padding-bottom: 20px;
+}
+.container__products__images img {
+    width: 160px;
+    height: 160px;
+}
+.container__carousel {
+    margin-top: 50px;
+}
+
+.container__carousel_products {
+    background-color: white;
+    height: 350px;
+}
+.container__carousel_products h1 {
+    margin-bottom: 40px;
+}
+.container__carousel_products main {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+.price {
+    margin-top: 10px;
+    color: rgb(57, 90, 105);
+}
